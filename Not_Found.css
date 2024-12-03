@@ -1,0 +1,16 @@
+
+body {
+  background-color: Black;
+  color: Pink;
+  font-family: Verdana;
+}
+
+div {
+  font-family: Pixel;
+}
+
+@font-face {
+  font-family: "Pixel";
+  src: url("joystix monospace.otf");
+  
+}

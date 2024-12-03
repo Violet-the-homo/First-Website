@@ -1,0 +1,136 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: black;
+  color: Pink;
+  font-family: Verdana;
+}
+
+P1 {
+  color: #ffccff;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+
+div {
+  font-family: myFirstFont;
+}
+
+@font-face {
+  font-family: "Pixel";
+  src: url("joystix monospace.otf");
+  font-style: normal;
+}
+
+h1 { 
+  text-align: center;
+  font-family: "pixel";
+}
+
+
+.title-bar {
+  position: sticky;
+  bottom: 0px;
+  
+}
+
+.Home_Page {
+  display: block;
+  width: 200px;
+  line-height: 2.5em;
+}
+
+
+.Home_Page:hover {
+  background-color: #555;
+  color: white;
+  }
+  
+.Music_Page {
+  display: block;
+  width: 200px;
+  line-height: 2.5em;
+}
+
+
+.Music_Page:hover {
+  background-color: #555;
+  color: Pink;
+  }
+  
+.Music_BG {
+ background: url(img_man.jpg) no-repeat center fixed;
+  background-size: cover;
+
+  
+} 
+  
+.Pic_Page {
+  display: block;
+  width: 200px;
+  line-height: 2.5em;
+}
+
+
+.Pic_Page:hover {
+  background-color: #555;
+  color: white;
+}
+
+.About_Page {
+  display: block;
+  width: 200px;
+  line-height: 2.5em;
+}
+
+
+.About_Page:hover {
+  background-color: #555;
+  color: white;
+}
+  
+.window {
+  float: right;
+}
+
+
+.MusicList {
+  
+   text-align: center;
+    position: relative;
+    top: 500px;
+    list-style: none;
+    font-size: 50px;
+    color: #66ffff;
+}
+
+.Music_List:hover {
+  background-color: #ffccff;
+  opacity: 0.5;
+}
+
+ul {
+  list-style: none;
+}
+
+.sleep_token {
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  top: 1200px
+}
+  
+.pics {
+  text-align: center;
+}
+
+ .No_Page {
+   
+   text-align: center;
+ }
